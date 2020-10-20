@@ -30,8 +30,8 @@ The pytorch model currently takes 5.97 seconds to process 24 images of size 256x
 
 Epoch 13 out of ~150
 
-<img src="https://github.com/Manjunatha-b/MobileNetSR/blob/master/Results/bilinear.jpg" width="400">
-<img src="https://github.com/Manjunatha-b/MobileNetSR/blob/master/Results/13.jpg" width="400">
+<img src="https://github.com/Manjunatha-b/MobileNetSR/blob/main/Results/bilinear.jpg" width="400">
+<img src="https://github.com/Manjunatha-b/MobileNetSR/blob/main/Results/13.jpg" width="400">
 
 
 # Future Plan:
