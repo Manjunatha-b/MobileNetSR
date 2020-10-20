@@ -6,9 +6,9 @@ Model based on depthwise convolution and deconvolution using residual blocks for
 
 1. <b>Generator</b>: 12k parameters with residual blocks, inspired by SRGAN.
 2. <b>Discriminator</b>: same as SRGAN but implemented with depthwise convolutions for speed
-3. <b>Loss</b>: Perceptual and adversarial with 0.001 weightage for adversarial loss
+3. <b>Loss</b>: Perceptual,TV, MSE and adversarial
 4. <b>Batch size: </b>32, any more and google colab crashes without enough memory
-5. <b>Execution time</b>: generator for 426x240 (240p image) = ~ 0.3s.
+5. <b>Execution time</b>: generator for 24 - 256x144 (144p image) = ~ 5.97s.
 6. <b>Epoch time</b>: takes about 47 mins to train an epoch.
 7. <b>Dataset</b>: DIV2K cut to 256x256 and scaled down with opencv bilinear(default) to 128x128
 
