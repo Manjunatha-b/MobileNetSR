@@ -26,12 +26,12 @@ The pytorch model currently takes 5.97 seconds to process 24 images of size 256x
 
 1. Saving model at each epoch in case google colab kicks me out cause of free use quota 
 
-# Current Results:
+# Results thus far:
 
-Epoch 13 out of ~150
-
-<img src="https://github.com/Manjunatha-b/MobileNetSR/blob/main/Results/bilinear.jpg" width="400">
-<img src="https://github.com/Manjunatha-b/MobileNetSR/blob/main/Results/13.jpg" width="400">
+Results of incomplete model at epoch 13 out of ~150, <br/>
+above - Bilinear upscale, below - MobileNetSR<br/>
+<img src="https://github.com/Manjunatha-b/MobileNetSR/blob/main/Results/bilinear.jpg" width="600">
+<img src="https://github.com/Manjunatha-b/MobileNetSR/blob/main/Results/13.jpg" width="600">
 
 
 # Future Plan:
